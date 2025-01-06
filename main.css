@@ -1200,6 +1200,10 @@ iframe{
     #feedbackSectionSubheading{
         margin-bottom: 4px;
     }
+
+    #banner2Button1 {
+        margin-top: 5px;
+    }
 }
 
 @media(max-width: 740px){

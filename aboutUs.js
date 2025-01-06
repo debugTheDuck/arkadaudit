@@ -70,10 +70,10 @@ const teamWrapper = document.getElementById("teamWrapper")
 const cvList = [
     ["photos\\team\\resized\\NatTur.png", "Туралинова Наталья", "директор", 2007, 1974, ["photos\\certificates\\NatalyaTuralinova1.png", "photos\\certificates\\NatalyaTuralinova2.png", 'photos\\certificates\\natTurCertificate.jpg', 'photos\\certificates\\NatalyaTuralinova4.png']],
     ["photos\\team\\resized\\AFANASEVAý ANASTASIYA-transformed.jpeg", "Афанасьева Анастасия", "Бухгалтер", 2015, 1992, ["photos\\certificates\\AFANASEVA ANASTASIYA1.png"]],
-    ["photos\\team\\resized\\BURENINA_YELENA-transformed.jpeg", "Буренина Елена", "Главный бухгалтер", 2013, 1970, ["photos\\certificates\\BURENINA YELENA1.png", '"photos\\certificates\\BURENINA YELENA2.png", ""photos\\certificates\\BURENINA YELENA3.png"']],
+    ["photos\\team\\resized\\BURENINA_YELENA-transformed.jpeg", "Буренина Елена", "Главный бухгалтер", 2013, 1970, ["photos\\certificates\\BURENINA YELENA1.png", "photos\\certificates\\BURENINA YELENA2.png", "photos\\certificates\\BURENINA YELENA3.png"]],
     ["photos\\team\\resized\\DAVLYATOVA_YULIYA-transformed.jpeg", "Давлятова Юлия", "Бухгалтер, ВЭД", 2021, 1985, ["photos\\certificates\\DAVLYATOVA YULIYA1.png"]],
     ["photos\\team\\resized\\IRGASHXODJAYEVAý AREVIKý -transformed.jpeg", "Иргашгоджаева Аревик", "Главный бухгалтер", 2020, 1992, []],
-    ["photos\\team\\resized\\KADIROVA_MARIANNA_MARSOVNA-transformed.jpeg", "Кадирова Марианна", "Менеджер проекта МСФО", 2013, 1988, ["photos\\certificates\\Kadirova M.1.png"]],
+    ["photos\\team\\resized\\KADIROVA_MARIANNA_MARSOVNA-transformed.jpeg", "Кадирова Марианна", "Менеджер проекта МСФО", 2013, 1988, ["photos\\certificates\\Kadirova M.1.png", "photos\\certificates\\Kadirova M.2.png"]],
     ["photos\\team\\resized\\KIM_OLGA_EDUARDOVNA-transformed.jpeg", "Ким Ольга", "Главный бухгалтер", 2023, 1993, ["photos\\certificates\\Kim O.1.png"]],
     ["photos\\team\\resized\\KUTISHEVA_ALLA-transformed.jpeg", "Кутишева Алла", "Главный бухгалтер", 2021, 1976, ["photos\\certificates\\KUTISHEVA ALLA1.png", "photos\\certificates\\KUTISHEVA ALLA2.png", "photos\\certificates\\KUTISHEVA ALLA3.png", "photos\\certificates\\KUTISHEVA ALLA4.png", "photos\\certificates\\KUTISHEVA ALLA5.png", "photos\\certificates\\KUTISHEVA ALLA6.png",]],
     ["photos\\team\\resized\\MAKSUMOVA_GULNOZA-transformed.jpeg", "Максумова Гульноза", "Бухгалтер", 2024, 1990, ["photos\\certificates\\Maksumova Gulnoz1.png"]],
