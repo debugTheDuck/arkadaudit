@@ -259,7 +259,7 @@
     background-color: var(--color-light-grey);
     flex-grow: 1;
     /* width: 85%; */
-    padding: 27px 5% 0 12%;
+    padding: 40px 5% 0 12%;
 }
 
 .CVText p{
