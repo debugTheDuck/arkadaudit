@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkad Audit - Услуги</title>
+    <link rel="icon" href="photos/arkadAuditLogo.png">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="contactWrapper">
+        <div class="contact">
+            <a class="contactCall" href="https://t.me/"> <!-- CHANGE -->
+                <img src="photos/contactTelegramImg.svg" id="contactTelegramImg">
+                <div class="contactTextWrapper">
+                    <h4>Телеграм-бот</h4>
+                    <p>Закажите услугу сейчас или свяжитесь с оператором с помощью телеграм бота</p>
+                </div>
+            </a>
+
+            <a class="contactCall" id="contactShowContact">
+                <img src="photos/contactCallImg.svg" id="contactCallImg">
+                <div class="contactTextWrapper">
+                    <h4>Звонок</h4>
+                    <p>Оставьте заявку на звонок и оператор свяжется с вами в ближайшее время</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <div id="contactApplicationWrapper">
+        <form method="post" class="contactApplication">
+            <h3>Заявка на звонок</h3>
+            <label for="name">Имя</label>
+            <input type="text" placeholder="Имя" id="name" name="name" required>
+            <label for="tel">Номер</label>
+            <input type="tel" inputmode="numeric" placeholder="+998 " id="tel" name="tel" required value="+998 ">
+            
+            <!-- <div class="contactApplicationComment">
+                <label for="text">Комментарий</label>
+                <textarea id="text" name="text" placeholder="О чём хотите спросить, какая услуга вас интересует, предложения или сотрудничество..."></textarea>
+            </div> -->
+            <div class="contactApplicationSubmit">
+                <input type="submit" value="Позвоните мне" class="buttonBlueReg">
+            </div>
+        </form>
+    </div>
+
+
+    <header>
+        <div class="headerContentWrapper">
+            <div class="headerLogoWrapper">
+                <img src="photos/arkadAuditLogo.png" id="headerLogo" alt="arkad audit logo" width="69px" height="57px">
+                <div id="headerLogoTextWrapper">
+                    <p id="headerLogoText">Arkad</p>
+                    <p id="headerLogoSubtext">Audit</p>
+                </div>
+            </div>
+
+            <nav class="headerNav">
+                <a href="main.html" class="headerNavElement">Главная</a>
+                <a href="aboutUs.html" class="headerNavElement">О нас</a>
+                <a href="accountantQuestions.html" class="headerNavElement">Вопросы бухгалтеру</a>
+                <a href="#" class="headerNavElement">Учебный центр</a>
+            </nav>
+
+            <a class="buttonBlueReg" id="headerButton">Обратиться к нам</a>
+            <nav id="headerHam">
+                <img alt="menuButton" src="photos/hamMenuIcon.svg">
+            </nav>
+        </div>
+    </header>
+
+    <div id="offScreenMenu">
+        <div class="hamElements">
+            <a href="main.html">Главная</a>
+            <a href="aboutUs.html" >О нас</a>
+            <a href="services.html">Наши услуги</a>
+            <a href="accountantQuestions.html">Вопросы<br>бухгалтеру</a>
+            <a>Учебный<br>центр</a>
+            <a id="headerButton2">Свяжитесь<br>с нами</a>
+        </div>
+    </div>
+
+    <div class="headerImmitator"></div>
+
+
+    <div class="content">
+        <section class="services">
+            <div class="servicesHeading">
+                <h2>Наши услуги</h2>
+                <p>Мы оказываем профессиональные услуги бухгалтерского учета и налогообложения по всем возможным видам деятельности</p>
+                <a class="buttonBlueReg contactButton" href="#name1">Консультация</a>
+            </div>
+
+            <div id="servicesWrapper">
+                <!-- <div class="servicesElement">
+                    <div class="servicesText">
+                        <h3>Полное бухгалтерское сопровождение (НСБУ, МСФО), управленческая отчетность</h3>
+                        <button class="buttonShowMore">Подробнее<img src="photos/arrowDown.svg"></button>
+                        <p>Мы возьмём на себя рутину учёта, чтобы вы сосредоточились на бизнесе. Быстро решим все вопросы бухучёта и налогов, поможем избежать лишних расходов и вернём входной НДС. Подготовим финансовую и управленческую отчётность с реальными показателями, а также проведём их анализ</p>
+                        <a id="orderService1" class="buttonBlueReg">Заказать услугу</a>
+                    </div>
+                    <img src="photos/partners white bg/demo1.png" class="servicesImg">
+                </div> -->
+
+            </div>
+        </section>
+    </div>
+
+
+    <div class="content">
+        <section class="feedbackSection" id="feedbackSection">
+            <div class="feedbackSectionHeadingWrapper">
+                <div class="feedbackSectionSubheadingWrapper">
+                    <div class="blueLine"></div><h3 id="feedbackSectionSubheading">Не нашли нужного?</h3><div class="blueLine"></div>
+                </div>
+                <h1 id="feedbackSectionHeading">Давайте вместе решим<br>вашу проблему</h1>
+            </div>
+            
+            <div class="feedbackCallWrapper">
+                <div class="feedbackCallFormWrapper">
+                    <div class="feebackCallFormWrapper1">
+                        <form class="feebackCallForm" method="post">
+                            <div class="feedbackCallNameTel">
+                                <label for="name">Имя</label>
+                                <br>
+                                <input type="text" placeholder="Имя" id="name1" name="name" required>
+
+                                <br>
+
+                                <label for="tel">Номер</label>
+                                <br>
+                                <input type="tel" inputmode="numeric" placeholder="+998 " id="tel" name="tel" required value="+998 ">
+                            </div>
+
+                            <div class="feedbackCallComment">
+                                <label for="text">Комментарий</label>
+                                <br>
+                                <textarea id="text" name="text" placeholder="О чём хотите спросить, какая услуга вас интересует, предложения или сотрудничество...">
+
+                                </textarea>
+                            </div>
+
+                            <div class="feebackCallSubmit">
+                                <input type="submit" value="Позвоните мне" class="buttonBlueReg" id="submitForm">
+                                <a href="#" class="buttonStrokeReg">Телеграм бот</a>
+                            </div>
+                        </form>
+                    </div>
+
+
+                </div>
+                <div id="feedbackGap"></div>
+                <img id="feedbackImage" src="photos/callCentre.png">
+            </div>
+        </section>
+    </div>
+
+    <div class="content"><iframe id="googleMap2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d749.1352122179443!2d69.29263337221377!3d41.31885119999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef4d1ff52b80b%3A0x40bd41cfb8ec9fd0!2sKari%20Niyazov%20Street%2010%D0%B0%2C%20100194%2C%20Tashkent%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1733911938207!5m2!1sen!2s"t height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    <div class="content" id="footerWrapper">
+        <footer>
+            <div class="footerTextWrapper">
+                <h2 id="footerHeading">Arkad Audit</h2>
+                <div class="footerText">
+                    г. Ташкент, Мирзо Улугбекский р-н,<br> ул. Хамида Алимджана, дом 10А
+                </div>
+
+                <div class="footerText">
+                    arkad.audit@gmail.com<br>info@arkadaudit.uz
+                </div>
+
+                <div class="footerText">
+                    + 998 (90) 982-36-42<br>+ 998 (90) 982-63-32
+                </div>
+
+                <div class="footerText">
+                    ПН - ПТ: 09:00 - 18:00<br>СБ - ВС: Выходные
+                </div>
+            </div>
+            <iframe id="googleMap1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d749.1352122179443!2d69.29263337221377!3d41.31885119999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef4d1ff52b80b%3A0x40bd41cfb8ec9fd0!2sKari%20Niyazov%20Street%2010%D0%B0%2C%20100194%2C%20Tashkent%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1733911938207!5m2!1sen!2s" width="720" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </footer>
+    </div>
+
+</body>
+<script src="main.js"></script>
+<!-- <script src="contact.js"></script> -->
+<script src="services.js"></script>
+
+</html>
