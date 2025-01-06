@@ -191,7 +191,7 @@ function createCV(CVid) {
 
             CVPost.appendChild(CVPostBold)
             CVXP.appendChild(CVXPBold)
-            CVAge.appendChild(CVAgeBold)
+            // CVAge.appendChild(CVAgeBold)
 
             CVText.appendChild(CVHeading)
             CVText.appendChild(CVBr)
