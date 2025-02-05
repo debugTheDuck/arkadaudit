@@ -37,3 +37,37 @@ function showHam() {
         offScreenMenu.setAttribute("isActive", false)
     }
 }
+
+
+// routing
+const HOST_ROUTE = "http://localhost:8000" // change this
+
+const homePageButtons = document.querySelectorAll(".homePage")
+const aboutUsButtons = document.querySelectorAll(".aboutUsPage")
+const questionsPageButtons = document.querySelectorAll(".questionsPage")
+const servicesPageButtons = document.querySelectorAll(".servicesPage")
+
+const redirectButtons = [homePageButtons, aboutUsButtons, questionsPageButtons, servicesPageButtons]
+
+redirectButtons.forEach(redirectButtonArray => redirectButtonArray.forEach(homePageButton => homePageButton.addEventListener("click", (e) => {
+    const buttonClass = e.target.className.split(" ")[1]
+    console.log(buttonClass)
+    const newRoute = route[buttonClass]
+    window.location.href = `${HOST_ROUTE}/${newRoute}`
+
+})))
+
+route = {
+    homePage: "home",
+    aboutUsPage: "about-us",
+    questionsPage: "questions",
+    servicesPage: "services",
+}
+
+async function routeHome(event) {
+    const buttonClass = event.target.class
+
+    console.log(event.target)
+    const newRoute = route[buttonClass]
+    window.location.href = `${HOST_ROUTE}/${newRoute}`
+}
