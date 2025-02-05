@@ -1,0 +1,14 @@
+{
+  "name": "arkadaudit.uz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --watch server.js"
+  },
+  "author": "debugTheDuck (Ruslan Abduramanov)",
+  "license": "MIT",
+  "dependencies": {
+    "arkadaudit.uz": "file:",
+    "expres
